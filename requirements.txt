@@ -1,0 +1,14 @@
+# Backend dependencies
+Flask==2.3.3
+Flask-Cors==5.0.0       # Updated to latest compatible version
+SQLAlchemy==2.0.20      # For ORM with SQLite, adjust version if needed
+redis==5.0.0            # Redis client for Python
+celery==5.3.4           # Task queue for background jobs with Redis as broker
+
+# Additional dependencies
+requests==2.31.0        # HTTP requests, if you plan to make external API calls
+python-dotenv==1.0.0    # For managing environment variables
+
+# Testing and development dependencies
+pytest==7.4.2           # For running tests
+coverage==7.3.1         # For checking test coverage
